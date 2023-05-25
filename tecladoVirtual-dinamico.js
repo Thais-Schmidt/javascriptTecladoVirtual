@@ -4,16 +4,16 @@
 
 let cLetras1= ['Q','W','E','R','T','Y','U','I','O','P'];
 
-// let cLetras2= ['A','S','D','F','G','H','J','K','L','Ç'];
+let cLetras2= ['A','S','D','F','G','H','J','K','L','Ç'];
 
-// let cLetras3= ['Z','X','C','V','B','N', 'M',',','.',';'];
+let cLetras3= ['Z','X','C','V','B','N', 'M',',','.',';'];
 
 criar(cLetras1,"teclado1");
-// criar(cLetras2, "teclado2");
-// criar(cLetras3, "teclado3");
+criar(cLetras2, "teclado2");
+criar(cLetras3, "teclado3");
 
 
-function criar(letra, tecla){
+function criar(letra,tecla){
 
     var linha = document.getElementById(tecla);
 
